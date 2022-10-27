@@ -1,8 +1,6 @@
 public class SweetsList {
     public static void main(String[] args) {
-        System.out.println("");
-        new Rasmalai();
-        new Peda();
-        new GulabJamun();
+        Sweet<String> obj = new Sweet<>("i like gulab jamun");
+        obj.print();
     }
 }

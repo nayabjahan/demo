@@ -1,11 +1,10 @@
-public class Sweet{
-    String name;
+public class Sweet<T>{
+    T name;
 
-    public Sweet(String name) {
+    public Sweet(T name) {
         this.name = name;
     }
-
-    public Sweet() {
-        System.out.println("i like sweets");
+    public void print(){
+        System.out.println(name);
     }
 }
